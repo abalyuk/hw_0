@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+# Creating a merge conflict 
+=======
 # Samples 1% of lines from a file
+>>>>>>> hw_1b
 import sys
 import random
 
