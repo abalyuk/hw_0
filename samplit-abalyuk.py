@@ -1,3 +1,4 @@
+# Samples 1% of lines from a file
 import sys
 import random
 
