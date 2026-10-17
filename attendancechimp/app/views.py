@@ -41,7 +41,7 @@ def time_view(request):
 def sum_view(request):
     n1 = float(request.GET["n1"])
     n2 = float(request.GET["n2"])
-    return JsonResponse({"sum": n1+n2})
+    return HttpResponse("<p>" + str(n1 + n2) + "</p>")
 
 # ---------------------------------------------------------------------------
 # HW4  — user creation
