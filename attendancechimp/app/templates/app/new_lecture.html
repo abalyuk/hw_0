@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><head><title>New Lecture</title></head>
+<body style="text-align:center; font-family:Arial;">
+<h1>New Lecture</h1>
+<form action="/app/createLecture" method="post">
+    <p>Course:
+        <select name="choice">
+            {% for course in courses %}
+            <option value="{{ course.name }}">{{ course.name }}</option>
+            {% endfor %}
+        </select>
+    </p>
+    <input type="submit" value="Create Lecture">
+</form>
+</body>
+</html>
